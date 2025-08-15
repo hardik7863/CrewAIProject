@@ -11,7 +11,7 @@ app = Flask(__name__)
 
 # Initialize LLM and tools
 llm = LLM(model="gpt-4")
-search_tool = SerperDevTool(n=10)
+search_tool = SerperDevTool(n=5)
 
 # Define Agents
 senior_research_analyst = Agent(
