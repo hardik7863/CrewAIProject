@@ -8,7 +8,7 @@ import os
 load_dotenv()
 
 # Initialize LLM and tools
-llm = LLM(model="gpt-4")
+llm = LLM(model="gpt-3.5-turbo")
 search_tool = SerperDevTool(n=10)
 
 # Define Agents
