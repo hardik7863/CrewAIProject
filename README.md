@@ -9,6 +9,10 @@ This project leverages **CrewAI** to generate research-based blog posts. It comb
 - **Streamlit Frontend**: A user-friendly interface to input topics and view generated blog posts.
 - **Flask Backend**: Handles API requests and integrates with CrewAI for task execution.
 
+## Screenshots
+
+![Screenshot 1](Screenshots/s1.png)
+![Screenshot 2](Screenshots/s2.png)
 
 ### Key Files
 
@@ -24,23 +28,22 @@ This project leverages **CrewAI** to generate research-based blog posts. It comb
    ```bash
    git clone <repository-url>
    cd CrewAIProject
-    ```
-2. Install Dependencies:
    ```
+2. Install Dependencies:
+   ```bash
    pip install -r requirements.txt
    ```
 
 3. Add your API to the .env file:
-
 
 ## Usage
 
 ### Streamlit Frontend
 
 1. Run the Streamlit app:
-```bash
-streamlit run [streamlit_app.py]
+   ```bash
+   streamlit run streamlit_app.py
+   ```
+2. Open the app in your browser at http://localhost:8501.
 
-2.Open the app in your browser at http://localhost:8501.
-
-3.Enter a topic and click "Generate Blog Post" to see the output.
+3. Enter a topic and click "Generate Blog Post" to see
